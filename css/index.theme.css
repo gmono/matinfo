@@ -1,0 +1,15 @@
+
+.plane{
+    background-color: rgba(26, 26, 26, 0.2);
+}
+body{
+    background-image: url(../image/back.jpg);
+}
+.page{
+    padding: 5px;
+}
+*{
+    font-family: Ubuntu;
+    color:azure;
+
+}

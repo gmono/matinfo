@@ -1,0 +1,16 @@
+.plane{
+
+}
+.vhr{
+    height: 100%;
+    width: 1px;
+    background-color: #bfbfbf;
+    /*border-width:1px ;*/
+    /*border-style: solid;*/
+    /*border-color: grey;*/
+    display: inline-block;
+    /*box-sizing: border-box;*/
+}
+.tempcont{
+    display: none;
+}

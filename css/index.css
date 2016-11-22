@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+
+}
+#back{
+    position: fixed;
+    height: 104%;
+    width: 100%;
+    top:0;
+    left:0;
+}
+#uptoolbar{
+    position: fixed;
+    width: 100%;
+    height: 3em;
+    transition: all 0.2s linear;
+    top:0;
+    left:0;
+    padding:2px 0 2px 5px;
+}
+#listbtn{
+    height: 100%;
+}
+#uptoolbar>.vhr{
+    transition: all 0.1s linear;
+}
+#viewport{
+    height: 90%;
+    width: 100%;
+    /*top:10%;*/
+}
+#scrollplane{
+    height: 100%;
+    transition: all 0.2s ease-in;
+}
+.page{
+    height: 100%;
+    margin-right: 2mm;
+}
+.page>div:first-child{
+    height: 3em;
+}
+.page>div:last-child{
+    margin-top: 10px;
+}
+
+#selelist:checked~#scrollplane{
+    transform: translateX(0%);
+}
+#seleinfo:checked~#scrollplane{
+    transform: translateX(-100%);
+}
+
+[name="pagesele"]{
+    display: none;
+}
+.history_bar{
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.history{
+    display: inline-block;
+    vertical-align: top;
+    height:3em;
+    line-height: 3;
+    padding:5px 10px 5px 10px;
+}
