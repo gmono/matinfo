@@ -44,4 +44,7 @@ addinit(function () {
     else {
         active(seles[0],seles[1],DataInterface.CompetFound(sign));
     }
+    document.getElementById('listbtn').onclick=function(){
+        active(seles[1],seles[0],listobj);
+    }
 });
